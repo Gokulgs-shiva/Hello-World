@@ -1,0 +1,557 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background:black;
+    color: black;
+    font-family: 'Alegreya', sans-serif;
+}
+h2{
+    font-size: 250%;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 2%;
+    color: white;
+}
+h2:hover{
+    color: orange;
+}
+h3{
+    font-size: 175%;
+    line-height: 155%;
+    padding: 5% 0;
+    font-weight: 400;
+    color: #f5f5f5;
+}
+p{
+    font-family: 'alegreya sans', sans-serif;
+    color: #f5f5f5;
+    font-size: 140%;
+    line-height: 150%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: justify;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+    
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 86px;
+}
+#header-inner{
+    max-width: 1200px;
+    margin:0 auto;
+}
+#logo{
+    margin: 20px;
+    float: left;
+    width: 200px;
+    height: 60px;
+    background: url(img/RD.png) no-repeat ;
+}
+/*---start nav--*/
+nav{
+    float: right;
+    padding: 25px 20px 0 0;
+    
+}
+#menu-icon{
+    display: hidden;
+    width: 40px;
+    height: 40px;
+    background: url(img/nav.png) center;
+    
+}
+a:hover#menu-icon{
+    border-radius: 4px 4px 0 0;
+    
+}
+ul{
+    list-style-type: none;
+    
+}
+nav ul li {
+    font-family: 'alegreya', sans-serif;
+    font-size: 150%;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
+nav ul li a {
+    color: #f5f5f5;
+    text-decoration: none;
+    
+    
+}
+nav ul li a:hover{
+    color: orange;
+    transition: all 0.4s ease-in ;
+    border-bottom: 2px solid #e67e22; 
+    padding: 15px 0;
+}
+.current{
+    color: #c3d7df;
+}
+/*----end nav---*/
+.banner{
+    width: 100%;
+    background-color: black;
+    
+}
+.banner-inner {
+    max-width: 1000px;
+    margin: auto;
+   
+    
+}
+.banner-inner img{
+    margin-left: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-radius: 50px;
+}
+.banner-inner img:hover{
+    box-shadow: 0px 0px 50px rgba(255,255,255);
+}
+
+.one-fourth{
+    width: 24%;
+    float: left;
+    text-align: center;
+    border: 10px;
+    background-color: black;
+    
+}
+
+#html{
+    
+    border-radius: 100px;
+    margin-top: 15px;
+    margin-left: 5px;
+    box-shadow: 0 40px 50px 0 rgba(0, 0, 0, 0.9);
+
+}
+#html:hover{
+    transition: 0.8s;
+    transition: 0.5s; 
+    box-shadow: -15px -17px 25px 4px rbga(10,10,10,1);
+    border-radius: 100px;
+    background-color: brown;
+    border-radius: 160px;
+    box-shadow: 0 40px 50px 0 rgba(0, 0, 0, 0.9);
+}
+#css{
+    border-radius: 150px;
+    margin-top: 15px;
+    margin-left: 5px;
+    box-shadow: 0 40px 50px 0 rgba(0, 0, 0, 0.9);
+}
+#css:hover{
+    transition: 0.8s;
+    transition: 0.5s; 
+    box-shadow: -15px -17px 25px 4px rbga(10,10,10,1);
+    border-radius: 100px;
+    background-color: darkgoldenrod;
+    border-radius: 150px;
+}
+#seq{
+    border-radius: 100px;
+    margin-top: 15px;
+    margin-left: 5px;
+    box-shadow: 0 40px 50px 0 rgba(0, 0, 0, 0.9);
+}
+#seq:hover{
+    transition: 0.8s;
+    box-shadow: -15px -17px 25px 4px rbga(10,10,10,1);
+    border-radius: 100px;
+    background-color: hotpink;
+    border-radius: 150px;
+}
+#social{
+    border-radius: 100px;
+    margin-top: 15px;
+    margin-left: 5px;
+    box-shadow: 0 40px 50px 0 rgba(0, 0, 0, 0.9);
+}
+#social:hover{
+    transition: 0.8s; 
+    box-shadow: -15px -17px 25px 4px rbga(10,10,10,1);
+    border-radius: 100px;
+    background-color:magenta;
+    border-radius: 150px;
+}
+.one-fourth-1{
+    color:black;
+    font-size: 500%;
+    padding: 13% 0 4% 0;
+}
+.inner-wrapper{
+    float: left;
+    width: 100%;
+    background-color: black;
+}
+article{
+    float: left;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    
+}
+article img{
+    margin-top: 12px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#tablet1:hover{
+
+    animation:shake 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) ease-in 0.4s rotate(10deg) ; }
+    5% { transform: translate(1px, 2px) rotate(100deg); }
+    10% { transform: translate(3px, 0px) rotate(200deg); }
+    15% { transform: translate(3px, 2px) ease-in 0.4s rotate(300deg); }
+    20% { transform: translate(1px, 1px) rotate(400deg); }
+    25% { transform: translate(1px, 2px) rotate(500deg); }
+    30% { transform: translate(3px, 1px) ease-in 0.4s rotate(600deg); }
+    35% { transform: translate(3px, 1px) rotate(700deg); }
+    40% { transform: translate(1px, 1px) rotate(800deg); }
+    45% { transform: translate(1px, 2px) ease-in 0.4s rotate(900deg); }
+    50% { transform: translate(3px, 1px) rotate(1000deg);
+    55% { transform: translate(3px, 1px) rotate(1000deg); }
+    60% { transform: translate(3px, 1px) ease-in 0.4s rotate(1000deg); }
+    65% { transform: translate(3px, 1px) rotate(1000deg); }
+    70% { transform: translate(3px, 1px) rotate(1000deg); }
+    75% { transform: translate(3px, 1px) ease-in 0.4s rotate(1000deg); }
+    80% { transform: translate(3px, 1px) rotate(1000deg); }
+    85% { transform: translate(3px, 1px) rotate(1000deg); }
+    90% { transform: translate(3px, 1px) ease-in 0.4s rotate(1000deg); }
+    95% { transform: translate(3px, 1px) rotate(1000deg); }
+    100% { transform: translate(3px, 1px) rotate(1000deg); }
+    
+}
+   
+}
+aside{
+    float: right;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+aside img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 40px 50px 0 rgb(255, 255, 255,);
+  
+}
+#hand-mobile{
+     
+}
+#tablet2{
+    
+}
+#mobile{
+    
+}
+#desktop{
+    
+}
+.inner-wrapper-2{
+    float: right;
+    width: 100%;
+    background-color: black;
+}
+.inner-wrapper-3{
+    float: left;
+    width: 100%;
+    background-color: black;
+}
+.one-third{
+    width:33.3333333%;
+    float:left;
+    text-align: center;
+}
+#google{
+    background-color: black;
+}
+#marketing{
+    background-color: black;
+}
+#customers{
+    background-color: black;   
+}
+#smiley{
+    background-color: black;
+    padding: 0 0 1%;
+    clear: both;
+}
+/*
+.container
+{
+   position:relative;
+    width: 50%;
+    height: 620px;
+    background: rgba(0,0,0,0.1);
+    transform: rotate(-30deg) skew(25deg) scale(.8);
+    transition: 0.5s; 
+     box-shadow: -15px -17px 25px 4px rbga(10,10,10,1);
+    border-radius: 0%;
+    
+}
+.container img
+{
+    position: absolute;
+    width: 100%;
+    transition: 0.5s;
+    
+}
+.container:hover img:nth-child(4)
+{
+  transform: translate(160px,-160px);
+    opacity: 1;
+}
+.container:hover img:nth-child(3)
+{
+  transform: translate(120px,-120px);
+    opacity: .8;
+}
+.container:hover img:nth-child(2)
+{
+  transform: translate(80px,-80px);
+    opacity: .6;
+}
+.container:hover img:nth-child(1)
+{
+  transform: translate(40px,-40px);
+    opacity: .4;
+   
+}
+*/
+/*img side by side*/
+
+.cardmain{
+    padding-left:20px; 
+    width: 460px;
+    color: blueviolet;
+     background-color: gray;
+    margin-left: 430px;
+    margin-right: 50px;
+    padding-top: 12px;
+    border-radius: 15px;
+    
+}
+.column {
+    width: 440px;
+    height: 500px;
+    padding-bottom:20px; 
+    
+}
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 40px 50px 0 rgba(0, 0, 0, 0.9);
+}
+
+/* Some left and right padding inside the container */
+.container-namecard {
+    padding: 10 26px;
+    
+    
+}
+.container-namecard p{
+    color: black;
+}
+.container-namecard h2{
+    color: orange;
+}
+
+.button {
+    margin-top: 30px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+/* footer*/
+
+footer{
+    background-color: black;  
+    width: 100%;
+    margin-top: 1px; 
+}
+.social{
+    list-style-type: none;
+    text-align: center;
+}
+.social li{
+    display: inline;
+}
+.social i{
+    font-size: 200%;
+    margin: 1%;
+    padding: 5% 4%;
+    color: #c3d7df;
+    transition: opacity 300ms ease-in-out 1s;
+}
+.social i:hover{
+    color: orange;
+}
+footer.second{
+    border-top: px solid #aadcd2;
+    background-color: orange;
+    max-height: 55px;
+    margin: 0;
+}
+footer.second p{
+    padding: 5px 0 9px 0;
+    text-align: center;
+    color: black;
+}
+
+/* media */
+
+@media screen and (max-width:768px){
+    h2{
+        font-size: 150%;
+    }
+    h3{
+        font-size: 125%;
+    }
+    p{
+        font-size: 120%;
+    }
+    header{
+        position: absolute;
+    }
+    #logo{
+        margin: 15px 0 20 -25px;
+        background: url(img/RD_mobile.png)no-repeat center;
+    }
+    #menu-icon{
+        display:inline-block;
+    }
+    nav ul, nav:active ul{
+        display: none;
+        z-index: 1000;
+        position: absolute;
+        padding: 20px;
+        background: #6991ac;
+        right: 20px;
+        top: 60px;
+        border: 3px solid #fff;
+        border-radius: 10px 10px 10px 10px;
+        width: 50%;
+    }
+    nav:hover ul {
+        display: block;
+    }
+    nav li{
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .banner{
+        padding-top: 86px;
+    }
+    .one-fourth{
+        float: left;
+        width: 100%;
+    }
+    .one-fourth i{
+        font-size: 350%;
+        padding: 4% 0 1% 0;
+    }
+    article{
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+    .hand-mobile{
+        display: none;
+    }
+    .one-third{
+        width: 100%;
+    }
+    .social i {
+        font-size: 180%;
+    }
+}
+
+@media screen and (max-width:360px)
+{
+    
+        .cardmain
+        {
+           padding-left: 6px;
+           padding-top: 12px;
+           border-radius: 15px;
+        }
+        .card 
+        {
+    box-shadow: 0 40px 50px 0 rgba(0, 0, 0, 0.9);
+        }     
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
